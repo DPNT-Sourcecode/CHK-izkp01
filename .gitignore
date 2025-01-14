@@ -4,11 +4,15 @@
 .*/
 
 # ~~~~~~~~~ Language specific ~~~~~~~~~
-*.class
-hs_err_pid*
-build/
-out/
-target/
+
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # ~~~~~~~~~ IDE specific ~~~~~~~~~
 
