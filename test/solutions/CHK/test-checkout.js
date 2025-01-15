@@ -73,6 +73,7 @@ describe('CHK challenge', function () {
         assert.equal(chk("TTZ"), 45);
     });
     it('calculate any 3  offer 3', function () {
+        console.log('Here');
         assert.equal(chk("STY"), 45);
     });
 
