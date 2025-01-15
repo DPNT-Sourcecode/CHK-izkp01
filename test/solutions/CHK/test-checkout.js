@@ -20,4 +20,8 @@ describe('CHK challenge', function () {
     it('should return correct total for no offers', function () {
         assert.equal(chk("ABCD"), 115);
     });
+
+    it('should return 0 for empty', function () {
+        assert.equal(chk(" "), 0);
+    });
 });
