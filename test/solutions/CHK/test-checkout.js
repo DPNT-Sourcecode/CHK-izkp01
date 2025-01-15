@@ -67,13 +67,13 @@ describe('CHK challenge', function () {
     });
 
     it('calculate any 3 offer', function () {
-        assert.equal(chk("SSS"), 45);
+        assert.equal(chk("SSSS"), 45);
     });
     it('calculate any 3  offer', function () {
-        assert.equal(chk("STX"), 45);
+        assert.equal(chk("STXZ"), 45);
     });
     it('calculate any 3  offer', function () {
-        assert.equal(chk("YZZ"), 45);
+        assert.equal(chk("YZZZ"), 45);
     });
 
 
