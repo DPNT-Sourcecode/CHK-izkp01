@@ -21,7 +21,15 @@ describe('CHK challenge', function () {
         assert.equal(chk("ABCD"), 115);
     });
 
-    it('should return 0 for empty', function () {
-        assert.equal(chk(" "), 0);
+    it('should return -1 for empty', function () {
+        assert.equal(chk(" "), -1);
+    });
+
+    it('should -1 for invalid', function () {
+        assert.equal(chk("-"), -1);
+    });
+
+    it('should -1 for invalid', function () {
+        assert.equal(chk("ABCa"), -1);
     });
 });
