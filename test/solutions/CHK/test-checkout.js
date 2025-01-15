@@ -80,6 +80,14 @@ describe('CHK challenge', function () {
         assert.equal(chk("STYSTY"), 90);
     });
 
+    it('calculate any 3  offer 4', function () {
+        assert.equal(chk("SSSZ"), 65);
+    });
+
+    it('calculate any 3  offer 5', function () {
+        assert.equal(chk("STXZ"), 62);
+    });
+
 
 
 });
