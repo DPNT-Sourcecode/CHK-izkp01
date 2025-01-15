@@ -32,4 +32,8 @@ describe('CHK challenge', function () {
     it('should -1 for invalid', function () {
         assert.equal(chk("ABCa"), -1);
     });
+
+    it('should make B free', function () {
+        assert.equal(chk("AAAAAEEB"), 280);
+    });
 });
