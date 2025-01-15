@@ -36,4 +36,8 @@ describe('CHK challenge', function () {
     it('should make B free', function () {
         assert.equal(chk("AAAAAEEB"), 280);
     });
+
+    it('should make B free but no B so return total', function () {
+        assert.equal(chk("AAAEEEE"), 290);
+    });
 });
