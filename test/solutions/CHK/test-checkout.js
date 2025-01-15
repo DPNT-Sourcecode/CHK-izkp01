@@ -79,6 +79,3 @@ describe('CHK challenge', function () {
 
 
 });
-
-
-
