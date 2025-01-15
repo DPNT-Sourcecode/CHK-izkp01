@@ -40,4 +40,8 @@ describe('CHK challenge', function () {
     it('should make B free but no B so return total', function () {
         assert.equal(chk("AAAEEEE"), 290);
     });
+
+    it('calculate F offer', function () {
+        assert.equal(chk("AAABCDFFF"), 215);
+    });
 });
