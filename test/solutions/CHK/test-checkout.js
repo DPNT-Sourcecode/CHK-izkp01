@@ -44,4 +44,8 @@ describe('CHK challenge', function () {
     it('calculate F offer', function () {
         assert.equal(chk("FFF"), 20);
     });
+
+    it('calculate F offer', function () {
+        assert.equal(chk("FFFFFFF"), 50);
+    });
 });
